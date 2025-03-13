@@ -50,9 +50,11 @@ async function trainModel() {
     //classifier.normalizeData();
     // Train the model
 
-    const trainingOptions = {
-        epochs: 50,
+     const trainingOptions = {
+        epochs: 70,
         batchSize: 32,
+        hiddenunits: 20,
+        learningRate: 0.05
     };
 
     await classifier.train(trainingOptions, finishedTraining);  
