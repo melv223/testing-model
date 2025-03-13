@@ -1,0 +1,16 @@
+{
+  "name": "training-model",
+  "version": "1.0.0",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "fs": "^0.0.1-security",
+    "http-server": "^14.1.1"
+  }
+}
